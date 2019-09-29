@@ -3,7 +3,7 @@
 
 >Creates public and private subnets and launch EC2 instances under the subnets. 
 
-##Installing aws-cli
+## Installing aws-cli
 The easiest way to install aws-cli is to use pip.   
 - $ pip install awscli    
 
@@ -16,10 +16,10 @@ AWS Secret Access Key: bar
 Default region name [us-west-2]: us-west-2  
 Default output format [None]: json  
 
-#Create VPC    
+# Create VPC    
 - *To check default VPC cidr range *
 
-####**_$ aws ec2 describe-vpcs_**
+#### **_$ aws ec2 describe-vpcs_**
 **_Output_**
 >*"Vpcs":*
    
