@@ -17,7 +17,7 @@ Default region name [us-west-2]: us-west-2
 Default output format [None]: json  
 
 # Create VPC    
-- *To check default VPC cidr range *
+- *To check default VPC cidr range*
 
 #### **_$ aws ec2 describe-vpcs_**
 **_Output_**
@@ -323,7 +323,7 @@ Allocates an Elastic IP address to your AWS account. After you allocate the Elas
 ### 2. Security Group for webserver 
 
 
-#####**_$aws ec2 create-security-group --group-name webserverclivpc --description "allow ssh from Bastion server, 80 from all" --vpc-id vpc-0b733167ec6943ed2_**
+##### **_$aws ec2 create-security-group --group-name webserverclivpc --description "allow ssh from Bastion server, 80 from all" --vpc-id vpc-0b733167ec6943ed2_**
 >{  
     "GroupId": "sg-0539904efff19b31b"  
 }  
