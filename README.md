@@ -1,4 +1,4 @@
-# Virtual Private Cloud (VPC) aws-cli
+# VPC with Public Private Subnet using aws-cli
 >Creates a VPC with the specified IPv4 CIDR block using aws-cli. 
 
 >Creates public and private subnets and launch EC2 instances under the subnets. 
